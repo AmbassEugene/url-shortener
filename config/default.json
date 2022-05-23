@@ -1,0 +1,4 @@
+{
+  "MONGO_URI": "mongodb+srv://admin:3OaD59hxoc4ZnrJQ@cluster0.0lva5.mongodb.net/?retryWrites=true&w=majority",
+  "BASE_URL": "http://localhost:5000"
+}

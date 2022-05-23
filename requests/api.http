@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten 
+content-type: application/json
+
+{
+  "longUrl": "https://in.indeed.com/viewjob?jk=56ab7024ec40854d&q=react-native&l=Bengaluru,+Karnataka&tk=1g1vf801shvei800&from=ja&alid=5fb4a746e101b73dc5674f11&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1g1vf801shvei800"
+}

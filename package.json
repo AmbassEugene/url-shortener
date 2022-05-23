@@ -4,7 +4,8 @@
   "description": "A service to shorten url",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,10 @@
   },
   "homepage": "https://github.com/AmbassEugene/url-shortener#readme",
   "dependencies": {
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "mongoose": "^6.3.4",
     "nanoid": "^3.3.4",
     "valid-url": "^1.0.9"
   }
